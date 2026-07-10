@@ -197,7 +197,7 @@
     },
     "fabricRepositoryArchiveUrl": {
       "type": "string",
-      "defaultValue": "https://github.com/southworks/cohere-rd-knowledge/archive/refs/heads/main.zip",
+      "defaultValue": "[deployment().properties.templateLink.uri]",
       "metadata": {
         "description": "Repository archive URL for the seed script to download infra/scripts/ and dataset-seed/."
       }
